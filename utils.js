@@ -1,5 +1,6 @@
  export function createPlayerCard(player){
     console.log('createPlayerCard',player);
+    console.log('Trump!')
     const card = document.createElement('div');
     const cardHeader = document.createElement('div');
     const imageElement = document.createElement('img');
